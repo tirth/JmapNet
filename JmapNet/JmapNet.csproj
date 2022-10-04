@@ -12,7 +12,6 @@
     <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
     <NoWarn>1591</NoWarn>
     <GenerateDocumentationFile>true</GenerateDocumentationFile>
-    <ContinuousIntegrationBuild>true</ContinuousIntegrationBuild>
 
     <PackageId>JmapNet</PackageId>
     <PackageIcon>icon.png</PackageIcon>

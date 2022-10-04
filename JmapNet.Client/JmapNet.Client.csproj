@@ -2,7 +2,7 @@
 
   <PropertyGroup>
     <Version>0.1.0</Version>
-    <Description>A high-performance modern client library for a modern standard.</Description>
+    <Description>A high performance modern client library for JMAP APIs.</Description>
     <Copyright>Copyright (c) 2022 Tirth Patel</Copyright>
     <Authors>Tirth Patel</Authors>
 
@@ -20,6 +20,8 @@
     <PublishRepositoryUrl>true</PublishRepositoryUrl>
     <RepositoryUrl>https://github.com/tirth/JmapNet</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
+    <IncludeSymbols>true</IncludeSymbols>
+    <SymbolPackageFormat>snupkg</SymbolPackageFormat>
   </PropertyGroup>
 
   <ItemGroup>

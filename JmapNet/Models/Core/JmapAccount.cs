@@ -10,6 +10,8 @@ namespace JmapNet.Models.Core;
 [PublicAPI]
 public record JmapAccount
 {
+    private readonly IDictionary<string, object> _accountCapabilities = new Dictionary<string, object>();
+
     /// <summary>
     ///     A user-friendly string to show when presenting content from this account, e.g., the email address representing the
     ///     owner of the account.
@@ -26,8 +28,6 @@ public record JmapAccount
     ///     This is true if the entire account is read-only.
     /// </summary>
     public bool IsReadOnly { get; init; }
-
-    private readonly IDictionary<string, object> _accountCapabilities = new Dictionary<string, object>();
 
     /// <summary>
     ///     The set of capability URIs for the methods supported in this account. Each key is a URI for a capability that has

@@ -25,7 +25,7 @@ public static class Util
     {
         for (var i = 0; i < chars.Length; i++)
         {
-            if (i == 1 && !char.IsUpper(chars[i])) 
+            if (i == 1 && !char.IsUpper(chars[i]))
                 break;
 
             var hasNext = i + 1 < chars.Length;
@@ -34,7 +34,7 @@ public static class Util
             if (i > 0 && hasNext && !char.IsUpper(chars[i + 1]))
             {
                 // If the next char is a space, lowercase current char before exiting.
-                if (chars[i + 1] == ' ') 
+                if (chars[i + 1] == ' ')
                     chars[i] = char.ToLowerInvariant(chars[i]);
 
                 break;
