@@ -1,0 +1,62 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JmapNet", "JmapNet\JmapNet.csproj", "{1FDE3039-85B5-4D29-A83E-7A7F38C31901}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JmapNet.Client", "JmapNet.Client\JmapNet.Client.csproj", "{787541B7-29B4-4301-86F2-F6937555D3F6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JmapNet.Client.Tests", "JmapNet.Client.Tests\JmapNet.Client.Tests.csproj", "{9DCACDF9-9AC4-4B8E-A68D-5EDA92638947}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JmapNet.Dns", "JmapNet.Dns\JmapNet.Dns.csproj", "{B1D0BDB0-CC84-4214-B767-BC6D101AF70C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JmapNet.Dns.Tests", "JmapNet.Dns.Tests\JmapNet.Dns.Tests.csproj", "{F1A64A5B-0413-420F-877D-D2C4DF950C02}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestConsole", "TestConsole\TestConsole.csproj", "{3F42BDCA-933B-48F9-B9CA-7C5BC3705492}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{A7B4AB39-B1B1-41D6-BF82-80F371362B3E}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+		.gitignore = .gitignore
+		README.md = README.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1FDE3039-85B5-4D29-A83E-7A7F38C31901}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1FDE3039-85B5-4D29-A83E-7A7F38C31901}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1FDE3039-85B5-4D29-A83E-7A7F38C31901}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1FDE3039-85B5-4D29-A83E-7A7F38C31901}.Release|Any CPU.Build.0 = Release|Any CPU
+		{787541B7-29B4-4301-86F2-F6937555D3F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{787541B7-29B4-4301-86F2-F6937555D3F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{787541B7-29B4-4301-86F2-F6937555D3F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{787541B7-29B4-4301-86F2-F6937555D3F6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9DCACDF9-9AC4-4B8E-A68D-5EDA92638947}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9DCACDF9-9AC4-4B8E-A68D-5EDA92638947}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9DCACDF9-9AC4-4B8E-A68D-5EDA92638947}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9DCACDF9-9AC4-4B8E-A68D-5EDA92638947}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B1D0BDB0-CC84-4214-B767-BC6D101AF70C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B1D0BDB0-CC84-4214-B767-BC6D101AF70C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B1D0BDB0-CC84-4214-B767-BC6D101AF70C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B1D0BDB0-CC84-4214-B767-BC6D101AF70C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F1A64A5B-0413-420F-877D-D2C4DF950C02}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F1A64A5B-0413-420F-877D-D2C4DF950C02}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F1A64A5B-0413-420F-877D-D2C4DF950C02}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F1A64A5B-0413-420F-877D-D2C4DF950C02}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3F42BDCA-933B-48F9-B9CA-7C5BC3705492}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3F42BDCA-933B-48F9-B9CA-7C5BC3705492}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3F42BDCA-933B-48F9-B9CA-7C5BC3705492}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3F42BDCA-933B-48F9-B9CA-7C5BC3705492}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7848DB08-EA57-41C2-892E-9B4EBB22A2D1}
+	EndGlobalSection
+EndGlobal
