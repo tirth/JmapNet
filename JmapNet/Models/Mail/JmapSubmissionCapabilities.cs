@@ -17,6 +17,5 @@ public record JmapSubmissionCapabilities
     ///     EmailSubmission object (see Section 7). Each key in the object is the ehlo-name, and the value is a list of
     ///     ehlo-args.
     /// </summary>
-    // TODO: should be IDictionary<string, IList<string>> but FastMail implementation returns empty array
-    public IList<string> SubmissionExtensions { get; init; } = new List<string>();
+    public IDictionary<string, IList<string>> SubmissionExtensions { get; init; } = new Dictionary<string, IList<string>>();
 }

@@ -2,11 +2,9 @@
 
   <PropertyGroup>
     <Version>0.1.0</Version>
-    <Description>A high performance modern client library for JMAP APIs.</Description>
-    <Copyright>Copyright (c) 2022 Tirth Patel</Copyright>
-    <Authors>Tirth Patel</Authors>
+    <Description>A modern, high performance client library for JMAP APIs.</Description>
 
-    <TargetFrameworks>net6.0;net7.0</TargetFrameworks>
+    <TargetFrameworks>net8.0;net9.0</TargetFrameworks>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
     <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
@@ -34,7 +32,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="Microsoft.Extensions.Logging.Abstractions" Version="6.0.2" />
+    <PackageReference Include="Microsoft.Extensions.Logging.Abstractions" Version="9.0.1" />
   </ItemGroup>
 
 </Project>

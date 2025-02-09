@@ -3,10 +3,8 @@
   <PropertyGroup>
     <Version>0.1.0</Version>
     <Description>Core functionality to interact with the JMAP data model.</Description>
-    <Copyright>Copyright (c) 2022 Tirth Patel</Copyright>
-    <Authors>Tirth Patel</Authors>
 
-    <TargetFrameworks>net6.0;net7.0</TargetFrameworks>
+    <TargetFrameworks>net8.0;net9.0</TargetFrameworks>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
     <TreatWarningsAsErrors>true</TreatWarningsAsErrors>

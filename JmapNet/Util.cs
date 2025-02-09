@@ -11,7 +11,7 @@ public static class Util
         => JsonSerializer.Serialize(obj, options ?? PrintOpt);
 
     public static string Joined<T>(IEnumerable<T>? values, string separator = ", ")
-        => string.Join(separator, values ?? Enumerable.Empty<T>());
+        => string.Join(separator, values ?? []);
 
     // from System.Text.Json JsonCamelCaseNamingPolicy
     public static string ToCamelCase(string str)

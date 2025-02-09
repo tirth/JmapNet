@@ -12,12 +12,12 @@ public static class JmapClientExtensions
     ///     A set of properties expected to be fast to retrieve from
     ///     a quality server implementation.
     /// </summary>
-    private static readonly List<string> DefaultEmailProperties = new()
-    {
+    private static readonly List<string> DefaultEmailProperties =
+    [
         "id", "blobId", "threadId", "mailboxIds",
         "subject", "sentAt", "receivedAt", "from",
         "size", "keywords", "hasAttachment"
-    };
+    ];
 
     /// <summary>
     ///     Sends a request with the default using capabilities, assembled from the

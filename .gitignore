@@ -364,3 +364,6 @@ FodyWeavers.xsd
 
 # access token
 jmap_access_token.txt
+
+# IDEA
+.idea
