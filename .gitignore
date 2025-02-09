@@ -367,3 +367,7 @@ jmap_access_token.txt
 
 # IDEA
 .idea
+
+# Docs
+Docs/api
+Docs/_site
